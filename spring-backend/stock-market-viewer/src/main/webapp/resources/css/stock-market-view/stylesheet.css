@@ -1,0 +1,240 @@
+body {
+    background: #F9F6F6;
+}
+
+/*outline: solid 2px #ccc;*/
+
+.stack-container {
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 0 0 0 155px;
+    margin: 0 50px 30px 0;
+}
+
+.stack-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    letter-spacing: 0.05em;
+    color: #393C45;
+    padding: 25px 0 0 0;
+    margin: 0;
+}
+
+.chart-container {
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-start;
+    width: fit-content;
+    flex-direction: column;
+    transform: rotate(-90deg);
+    padding: 0 0 0 0;
+    margin: 0;
+}
+
+.chart-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    letter-spacing: 0.05em;
+    color: #393C45;
+    padding: 50px 0 0 0;
+    margin: 0;
+}
+
+.main-container {
+    display: flex;
+    margin: -150px 50px 0 155px;
+    height: 800px;
+}
+
+.currency-container {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 100%;
+    background: #F9F6F6;
+    box-shadow: 2px 2px 4px #393C45;
+    border-radius: 5px;
+    margin-right: 10%;
+    border: 1px solid #393C45;
+}
+
+.currency-text-container {
+    display: flex;
+    height: 10%;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.currency-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    letter-spacing: 0.05em;
+    color: #393C45;
+    padding: 0 0 0 0;
+    margin: 0;
+}
+
+.top-information-container, .information-container {
+    display: flex;
+    height: 8%;
+    width: 100%;
+    justify-content: space-between;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: 0.05em;
+    color: #393C45;
+    padding: 0 0 0 0;
+    margin: 0;
+}
+
+.information-container {
+    border-top: 1px solid #000000;
+    margin-bottom: 20px;
+}
+
+.information-text {
+    padding-left: 10px;
+}
+
+.value-text {
+    padding-right: 10px;
+}
+
+.graph-container {
+    display: flex;
+    width: 60%;
+    height: 100%;
+    flex-direction: column;
+    background: #F9F6F6;
+    box-shadow: 2px 2px 4px #393C45;
+    border-radius: 5px;
+    border: 1px solid #393C45;
+}
+
+.graph-text-container {
+    display: flex;
+    height: 10%;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.dropdown {
+    align-content: center;
+    width: 15%;
+    height: 40%;
+    position: relative;
+    display: inline-block;
+    margin-right: 50px;
+}
+
+.dropdown-btn {
+    width: 100%;
+    height: 100%;
+}
+
+.dropdown-btn, .dropdown-content-btn {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 0.05em;
+    color: #393C45;
+    background: #F9F6F6;
+    border-radius: 5px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: transparent;
+    z-index: 1;
+}
+
+.dropdown-content-btn {
+    margin-top: 2px;
+    width: 80%;
+    height: 80%;
+    transition: transform 0.2s ease-in-out;
+}
+
+.dropdown-content a {
+    display: block;
+    text-decoration: none;
+    color: #000;
+}
+
+.dropdown-content a:hover {
+    background-color: #393C45;
+}
+
+.dropdown-content-btn:hover {
+    background-color: #393C45;
+    color: #F9F6F6;
+    transform: scale(1.05);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.graph-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    letter-spacing: 0.05em;
+    color: #393C45;
+    padding: 0 0 0 0;
+    margin: 0;
+}
+
+.radio-buttons {
+    align-items: center;
+    width: 25%;
+    height: 40%;
+    margin-left: 50px;
+}
+
+.radio-button {
+    width: 100%;
+    height: 100%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 0.05em;
+    color: #393C45;
+    background: #F9F6F6;
+    margin-right: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.graph {
+    margin-top: 25px;
+    height: 90%;
+    width: 100%;
+}
+
+
+
+
+
+
